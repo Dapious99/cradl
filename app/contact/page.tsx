@@ -19,7 +19,7 @@ export default function Contact() {
       </h1>
       <p className="mt-6 max-w-2xl text-lg text-muted-foreground">
         Tell us who you are — a clinic, a funder, a mother, a journalist — and what
-        you're trying to do. We usually write back within a day, often with questions.
+        you&apos;re trying to do. We usually write back within a day, often with questions.
       </p>
 
       {/* Quick contact links */}
@@ -61,7 +61,7 @@ export default function Contact() {
         <aside className="lg:col-span-2 space-y-8">
           <div className="rounded-3xl border border-border/60 bg-secondary/40 p-8">
             <p className="font-display text-xl leading-snug">
-              "The best emails we get start with 'this is probably a stupid question, but…'."
+              &quot;The best emails we get start with &apos;this is probably a stupid question, but…&apos;.&quot;
             </p>
             <p className="mt-3 text-sm text-muted-foreground">— The Cradl team</p>
           </div>

@@ -67,8 +67,8 @@ export default function Technology() {
           Unfashionable equipment. <span className="text-primary">Boringly reliable</span>.
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
-          Cradl isn't a technology company. But the right gear, in the right room, at 3 a.m.,
-          is often the difference between a birthday and a funeral. Here's what we standardise on.
+          Cradl isn&apos;t a technology company. But the right gear, in the right room, at 3 a.m.,
+          is often the difference between a birthday and a funeral. Here&apos;s what we standardise on.
         </p>
       </section>
 
@@ -104,8 +104,8 @@ export default function Technology() {
       <section className="container-prose mt-24 mb-16">
         <blockquote className="rounded-3xl border border-border p-10 md:p-14">
           <p className="font-display text-2xl leading-snug md:text-3xl">
-            "The best piece of technology in the ward is a pulse oximeter that a nurse actually
-            trusts and reaches for. Everything else is downstream of that."
+            &quot;The best piece of technology in the ward is a pulse oximeter that a nurse actually
+            trusts and reaches for. Everything else is downstream of that.&quot;
           </p>
           <footer className="mt-4 text-sm text-muted-foreground">
             — Dr. Samuel Otieno, co-founder

@@ -82,7 +82,7 @@ export default function Home() {
         <div>
           <p className="mb-6 flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-muted-foreground">
             <span className="inline-block h-1.5 w-1.5 rounded-full bg-primary" />
-            Hello, we're Cradl.
+            Hello, we&apos;re Cradl.
           </p>
           <h1 className="text-5xl leading-[1.02] md:text-6xl">
             We keep newborns alive through their{" "}
@@ -108,8 +108,8 @@ export default function Home() {
             </Link>
           </div>
           <blockquote className="mt-10 max-w-md text-sm italic text-muted-foreground">
-            "Honestly, most of the babies we save are saved by a nurse who had
-            the right kit within arm's reach. That's the whole job."
+            &quot;Honestly, most of the babies we save are saved by a nurse who had
+            the right kit within arm&apos;s reach. That&apos;s the whole job.&quot;
             <footer className="mt-3 not-italic text-xs uppercase tracking-[0.14em]">
               — Dr. Amina Okafor, co-founder
             </footer>
@@ -173,7 +173,7 @@ export default function Home() {
             </p>
             <p className="mt-1">
               Preterm complications, infections, birth asphyxia, diarrhea. Each
-              has a documented intervention. The medicine isn't the missing piece.
+              has a documented intervention. The medicine isn&apos;t the missing piece.
             </p>
           </div>
           <div>
@@ -182,12 +182,12 @@ export default function Home() {
             </p>
             <p className="mt-1">
               Programs launch, funding runs out, equipment breaks. We stay on so
-              the chain of care doesn't quietly fall apart in year two.
+              the chain of care doesn&apos;t quietly fall apart in year two.
             </p>
           </div>
           <div>
             <p className="font-medium text-foreground">
-              Mothers who don't know who to call at 3 a.m.
+              Mothers who don&apos;t know who to call at 3 a.m.
             </p>
             <p className="mt-1">
               A named midwife and a working phone number changes the outcome
@@ -206,8 +206,8 @@ export default function Home() {
           A handful of things, done properly.
         </h2>
         <p className="mt-6 max-w-2xl text-muted-foreground">
-          We'd rather be brilliant at six things than mediocre at sixty. If your
-          clinic needs something outside this list, we'll happily point you to
+          We&apos;d rather be brilliant at six things than mediocre at sixty. If your
+          clinic needs something outside this list, we&apos;ll happily point you to
           someone who does it better.
         </p>
         <div className="mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -239,8 +239,8 @@ export default function Home() {
           Three honest stages. No theatre.
         </h2>
         <p className="mt-6 max-w-2xl text-muted-foreground">
-          You'll always know what we're doing, why, and what it costs. If a
-          program isn't worth running, we'll say so before a single dollar moves.
+          You&apos;ll always know what we&apos;re doing, why, and what it costs. If a
+          program isn&apos;t worth running, we&apos;ll say so before a single dollar moves.
         </p>
         <div className="mt-14 grid gap-10 md:grid-cols-3">
           {process.map((p) => (
@@ -253,10 +253,10 @@ export default function Home() {
         </div>
         <blockquote className="mt-16 max-w-2xl">
           <p className="font-display text-2xl leading-snug md:text-3xl">
-            "They actually picked up the phone."
+            &quot;They actually picked up the phone.&quot;
           </p>
           <footer className="mt-3 text-sm text-muted-foreground">
-            — paraphrasing every clinic manager we've onboarded after switching
+            — paraphrasing every clinic manager we&apos;ve onboarded after switching
             from a bigger NGO.
           </footer>
         </blockquote>
@@ -269,12 +269,12 @@ export default function Home() {
             Why bother with us
           </p>
           <h2 className="mt-6 text-4xl leading-tight md:text-5xl">
-            We're small on purpose.
+            We&apos;re small on purpose.
           </h2>
           <p className="mt-6 max-w-md text-muted-foreground">
             The same people who design a program run it in the field and answer
-            your messages. There's no country director translating between you
-            and a nurse in another time zone. It's just us.
+            your messages. There&apos;s no country director translating between you
+            and a nurse in another time zone. It&apos;s just us.
           </p>
         </div>
         <ul className="divide-y divide-border/60">
@@ -295,12 +295,12 @@ export default function Home() {
               The team
             </p>
             <h2 className="mt-6 max-w-3xl text-4xl leading-tight md:text-5xl">
-              The people you're actually working with.
+              The people you&apos;re actually working with.
             </h2>
             <p className="mt-6 max-w-2xl text-muted-foreground">
               A small clinical leadership plus the midwives and community health
               workers who show up at every birth. No country directors, no juniors
-              learning on a mother's timeline.
+              learning on a mother&apos;s timeline.
             </p>
           </div>
           <Link
@@ -345,7 +345,7 @@ export default function Home() {
           </h2>
           <p className="mt-6 max-w-2xl text-muted-foreground">
             No forms with twenty fields. Just tell us what clinic you run — or
-            what program you're trying to fund — and we'll write back within a
+            what program you&apos;re trying to fund — and we&apos;ll write back within a
             day, usually with questions.
           </p>
           <Link

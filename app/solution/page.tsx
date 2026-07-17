@@ -94,7 +94,7 @@ export default function Solution() {
           <h2 className="max-w-3xl text-3xl md:text-4xl">Want the chain in your clinic?</h2>
           <p className="mt-4 max-w-2xl text-muted-foreground">
             We onboard two new partner clinics a quarter. Tell us where you are and how many births
-            you see in a month — we'll take it from there.
+            you see in a month — we&apos;ll take it from there.
           </p>
           <Link
             href="/contact"

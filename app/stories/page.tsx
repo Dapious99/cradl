@@ -48,7 +48,7 @@ export default function Stories() {
           The work, in the words of the people doing it.
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
-          These aren't case studies. They're the calls, the near-misses, and the birthdays
+          These aren&apos;t case studies. They&apos;re the calls, the near-misses, and the birthdays
           our partner clinics send us — often at odd hours, usually with a photo attached.
         </p>
       </section>

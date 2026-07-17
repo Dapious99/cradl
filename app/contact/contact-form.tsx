@@ -91,7 +91,7 @@ export function ContactForm() {
         <span className="grid h-12 w-12 place-items-center rounded-full bg-primary/10 text-primary">
           <Check className="h-6 w-6" />
         </span>
-        <h2 className="font-display text-3xl">Thanks — we'll be in touch.</h2>
+        <h2 className="font-display text-3xl">Thanks — we&apos;ll be in touch.</h2>
         <p className="max-w-md text-muted-foreground">
           We reply to every message within two working days. In the meantime, feel free to
           explore the rest of the site.
@@ -128,7 +128,7 @@ export function ContactForm() {
 
         <div>
           <label htmlFor="interest" className="mb-1.5 block text-sm font-medium">
-            I'm reaching out about *
+            I&apos;m reaching out about *
           </label>
           <select
             id="interest"

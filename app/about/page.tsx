@@ -47,7 +47,7 @@ export default function About() {
             spent a decade watching preventable neonatal deaths in otherwise well-resourced hospitals.
           </p>
           <p>
-            The problem wasn't the medicine. The problem was that the chain of care kept breaking —
+            The problem wasn&apos;t the medicine. The problem was that the chain of care kept breaking —
             between prenatal and delivery, between delivery and home, between home and the
             immunization schedule.
           </p>
@@ -61,7 +61,7 @@ export default function About() {
       <section className="container-prose mt-24">
         <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">The team</p>
         <h2 className="mt-6 max-w-3xl text-4xl leading-tight md:text-5xl">
-          The people you'll actually work with.
+          The people you&apos;ll actually work with.
         </h2>
         <div className="mt-14 grid gap-14 md:grid-cols-2">
           {people.map((p) => (
