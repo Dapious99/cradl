@@ -1,0 +1,54 @@
+import type { Metadata } from "next";
+import { Lora, Plus_Jakarta_Sans } from "next/font/google";
+import { MotionProvider } from "@/components/motion/motion-provider";
+import { SiteHeader } from "@/components/site-nav";
+import { SiteFooter } from "@/components/site-footer";
+import "./globals.css";
+
+const lora = Lora({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
+  variable: "--font-lora",
+});
+
+const plusJakartaSans = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-plus-jakarta-sans",
+});
+
+export const metadata: Metadata = {
+  title: {
+    default: "Cradl — Keeping newborns alive through their first year",
+    template: "%s — Cradl",
+  },
+  description:
+    "Cradl is a health initiative working with maternity clinics across Africa to end preventable infant deaths — one birth at a time.",
+  metadataBase: new URL("https://cradl.health"),
+  openGraph: {
+    siteName: "Cradl",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en" className={`${lora.variable} ${plusJakartaSans.variable}`}>
+      <body>
+        <MotionProvider>
+          <SiteHeader />
+          <main>{children}</main>
+          <SiteFooter />
+        </MotionProvider>
+      </body>
+    </html>
+  );
+}
