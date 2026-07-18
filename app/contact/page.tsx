@@ -3,10 +3,10 @@ import { ContactForm } from "./contact-form";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Write to Cradl. We answer every message, usually within a day.",
+  description: "Write to Nursesight. We answer every message, usually within a day.",
   openGraph: {
-    title: "Contact — Cradl",
-    description: "Write to Cradl. We answer every message.",
+    title: "Contact — Nursesight",
+    description: "Write to Nursesight. We answer every message.",
   },
 };
 
@@ -27,28 +27,28 @@ export default function Contact() {
         <div>
           <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">General</p>
           <a
-            href="mailto:hello@cradl.health"
+            href="mailto:hello@nursesight.health"
             className="mt-1 block text-lg font-medium text-primary hover:underline"
           >
-            hello@cradl.health
+            hello@nursesight.health
           </a>
         </div>
         <div>
           <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">Clinics</p>
           <a
-            href="mailto:clinics@cradl.health"
+            href="mailto:clinics@nursesight.health"
             className="mt-1 block text-lg font-medium hover:text-primary transition-colors"
           >
-            clinics@cradl.health
+            clinics@nursesight.health
           </a>
         </div>
         <div>
           <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">Funders</p>
           <a
-            href="mailto:partners@cradl.health"
+            href="mailto:partners@nursesight.health"
             className="mt-1 block text-lg font-medium hover:text-primary transition-colors"
           >
-            partners@cradl.health
+            partners@nursesight.health
           </a>
         </div>
       </div>
@@ -63,7 +63,7 @@ export default function Contact() {
             <p className="font-display text-xl leading-snug">
               &quot;The best emails we get start with &apos;this is probably a stupid question, but…&apos;.&quot;
             </p>
-            <p className="mt-3 text-sm text-muted-foreground">— The Cradl team</p>
+            <p className="mt-3 text-sm text-muted-foreground">— The Nursesight team</p>
           </div>
           <div className="rounded-3xl border border-border/60 bg-secondary/40 p-8 text-sm text-muted-foreground space-y-3">
             <p className="font-medium text-foreground">Based across</p>

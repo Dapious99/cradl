@@ -4,11 +4,11 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Stories",
   description:
-    "Field notes from Cradl's partner clinics: mothers, midwives, and the babies they carried through the first year.",
+    "Field notes from Nursesight's partner clinics: mothers, midwives, and the babies they carried through the first year.",
   openGraph: {
-    title: "Stories — Cradl",
-    description: "Field notes from Cradl's partner clinics.",
-    images: ["https://cradl.health/og-stories.jpg"],
+    title: "Stories — Nursesight",
+    description: "Field notes from Nursesight's partner clinics.",
+    images: ["https://nursesight.health/og-stories.jpg"],
   },
 };
 

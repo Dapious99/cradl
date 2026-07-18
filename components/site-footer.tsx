@@ -9,13 +9,13 @@ export function SiteFooter() {
           <Link href="/" className="flex items-center gap-3">
             <Image
               src="/logo-mark.png"
-              alt="Cradl logo"
+              alt="Nursesight logo"
               width={36}
               height={36}
               className="h-9 w-9"
             />
             <span className="font-display text-xl tracking-tight">
-              CRADL<span className="text-primary">.</span>
+              NURSESIGHT<span className="text-primary">.</span>
             </span>
           </Link>
           <p className="mt-4 max-w-sm text-sm text-muted-foreground">
@@ -40,10 +40,10 @@ export function SiteFooter() {
         <div className="text-sm">
           <p className="mb-3 font-medium">Get in touch</p>
           <a
-            href="mailto:hello@cradl.health"
+            href="mailto:hello@nursesight.health"
             className="text-muted-foreground hover:text-foreground transition-colors"
           >
-            hello@cradl.health
+            hello@nursesight.health
           </a>
           <p className="mt-1 text-muted-foreground">Lagos · Nairobi · Accra</p>
         </div>
@@ -51,7 +51,7 @@ export function SiteFooter() {
 
       <div className="border-t border-border/60 py-5">
         <div className="container-prose flex flex-col items-center justify-between gap-2 text-xs text-muted-foreground md:flex-row">
-          <p>© {new Date().getFullYear()} Cradl Initiative. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Nursesight Initiative. All rights reserved.</p>
           <p>Every baby, a full first year.</p>
         </div>
       </div>

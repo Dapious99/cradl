@@ -3,10 +3,10 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "The team",
-  description: "The clinicians, midwives and community health workers behind Cradl.",
+  description: "The founders behind Nursesight.",
   openGraph: {
-    title: "The team — Cradl",
-    description: "The clinicians, midwives and community health workers behind Cradl.",
+    title: "The team — Nursesight",
+    description: "The founders behind Nursesight.",
     images: ["/team-1.jpg"],
   },
 };
@@ -14,33 +14,40 @@ export const metadata: Metadata = {
 const people = [
   {
     name: "Dr. Amina Okafor",
-    role: "Co-founder & Medical Director",
+    role: "Chief Executive Officer",
     img: "/team-1.jpg",
-    bio: "Pediatrician, twenty years in neonatal care across Lagos and Abuja. Amina designs the clinical protocols every Cradl partner clinic runs on.",
+    bio: "A decade spent watching preventable neonatal deaths in under-resourced maternity wards convinced her that the gap was never the medicine — it was the chain of care around it. She built Nursesight to close that gap.",
     place: "Lagos, Nigeria",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/chinonso-emmanuel-083b18327/",
+      twitter: "https://x.com/OCloud11",
+    },
   },
   {
     name: "Dr. Samuel Otieno",
-    role: "Co-founder & Neonatologist",
+    role: "Chief Technology Officer",
     img: "/team-2.jpg",
-    bio: "Trained in Nairobi and Cape Town. Samuel leads training for our partner clinics — Helping Babies Breathe, essential newborn care, and neonatal resuscitation.",
+    bio: "Spent years at the intersection of clinical care and health systems, watching good outcomes fall apart when the data stopped flowing. Builds the tools that keep Nursesight's chain of care visible, measurable, and honest.",
     place: "Nairobi, Kenya",
-  },
-  {
-    name: "Priya Menon, CNM",
-    role: "Head of Midwifery",
-    img: "/team-3.jpg",
-    bio: "Certified nurse-midwife with a decade at Bangalore's largest maternity hospital. Priya makes sure the birth plan on paper matches what happens in the room.",
-    place: "Bangalore · Remote",
-  },
-  {
-    name: "Fatima Bello",
-    role: "Community Health Lead",
-    img: "/team-4.jpg",
-    bio: "Community health worker turned program lead. Fatima runs the 240-worker network that visits every enrolled family in weeks 1, 2, 4, 8 and monthly.",
-    place: "Kaduna, Nigeria",
+    socials: null,
   },
 ];
+
+function LinkedInIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden>
+      <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+    </svg>
+  );
+}
+
+function XIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden>
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+  );
+}
 
 export default function Team() {
   return (
@@ -51,8 +58,8 @@ export default function Team() {
           Small on purpose. <em className="text-primary not-italic">Senior</em> by design.
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
-          The same clinicians who write our protocols also stand at the bedside.
-          Nobody at Cradl is more than one phone call from a birth.
+          The same people who design the program run it in the field and answer your messages.
+          Nobody at Nursesight is more than one phone call from a birth.
         </p>
       </section>
 
@@ -75,6 +82,32 @@ export default function Team() {
             </div>
             <p className="mt-1 text-sm text-primary">{p.role}</p>
             <p className="mt-3 text-muted-foreground">{p.bio}</p>
+            {p.socials && (
+              <div className="mt-4 flex items-center gap-3">
+                {p.socials.linkedin && (
+                  <a
+                    href={p.socials.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`${p.name} on LinkedIn`}
+                    className="text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    <LinkedInIcon className="h-5 w-5" />
+                  </a>
+                )}
+                {p.socials.twitter && (
+                  <a
+                    href={p.socials.twitter}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`${p.name} on X`}
+                    className="text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    <XIcon className="h-5 w-5" />
+                  </a>
+                )}
+              </div>
+            )}
           </article>
         ))}
       </section>
@@ -82,7 +115,7 @@ export default function Team() {
       <section className="container-prose mt-24 mb-16">
         <div className="rounded-3xl bg-secondary/60 p-10 md:p-14">
           <h2 className="max-w-3xl text-3xl md:text-4xl">
-            Plus 240 community health workers, 38 midwives, and 12 partner clinics.
+            Plus the midwives, community health workers, and partner clinics doing the daily work.
           </h2>
           <p className="mt-4 max-w-2xl text-muted-foreground">
             The people whose names should be on this page, really. They are the reason

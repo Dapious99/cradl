@@ -38,7 +38,7 @@ const services = [
   {
     n: "06",
     title: "A second opinion",
-    body: "Any partner clinic can call a Cradl neonatologist, day or night. Because sometimes the whole thing turns on one phone call.",
+    body: "Any partner clinic can call a Nursesight neonatologist, day or night. Because sometimes the whole thing turns on one phone call.",
   },
 ];
 
@@ -51,12 +51,12 @@ const process = [
   {
     n: "02",
     title: "We build, in the open",
-    body: "Short cycles, monthly outcomes shared with clinic staff and funders. You'll never wonder what a Cradl dollar bought.",
+    body: "Short cycles, monthly outcomes shared with clinic staff and funders. You'll never wonder what a Nursesight dollar bought.",
   },
   {
     n: "03",
     title: "We stay, quietly",
-    body: "No ribbon-cuttings and no exit strategy. Once a clinic joins Cradl we're on the WhatsApp group for good.",
+    body: "No ribbon-cuttings and no exit strategy. Once a clinic joins Nursesight we're on the WhatsApp group for good.",
   },
 ];
 
@@ -68,10 +68,8 @@ const reasons = [
 ];
 
 const team = [
-  { img: "/team-1.jpg", name: "Dr. Amina Okafor", role: "Co-founder & Medical Director", place: "Lagos" },
-  { img: "/team-2.jpg", name: "Dr. Samuel Otieno", role: "Co-founder & Neonatologist", place: "Nairobi" },
-  { img: "/team-3.jpg", name: "Priya Menon, CNM", role: "Head of Midwifery", place: "Bangalore" },
-  { img: "/team-4.jpg", name: "Fatima Bello", role: "Community Health Lead", place: "Kaduna" },
+  { img: "/team-1.jpg", name: "Dr. Amina Okafor", role: "Chief Executive Officer", place: "Lagos" },
+  { img: "/team-2.jpg", name: "Dr. Samuel Otieno", role: "Chief Technology Officer", place: "Nairobi" },
 ];
 
 export default function Home() {
@@ -82,7 +80,7 @@ export default function Home() {
         <div>
           <p className="mb-6 flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-muted-foreground">
             <span className="inline-block h-1.5 w-1.5 rounded-full bg-primary" />
-            Hello, we&apos;re Cradl.
+            Hello, we&apos;re Nursesight.
           </p>
           <h1 className="text-5xl leading-[1.02] md:text-6xl">
             We keep newborns alive through their{" "}
@@ -111,7 +109,7 @@ export default function Home() {
             &quot;Honestly, most of the babies we save are saved by a nurse who had
             the right kit within arm&apos;s reach. That&apos;s the whole job.&quot;
             <footer className="mt-3 not-italic text-xs uppercase tracking-[0.14em]">
-              — Dr. Amina Okafor, co-founder
+              — CEO, Nursesight
             </footer>
           </blockquote>
         </div>
@@ -120,7 +118,7 @@ export default function Home() {
           <figure className="overflow-hidden rounded-3xl">
             <Image
               src="/hero.jpg"
-              alt="A mother cradling her newborn in warm morning light"
+              alt="A mother nursesighting her newborn in warm morning light"
               width={1400}
               height={1100}
               className="aspect-[5/4] w-full object-cover"
@@ -220,7 +218,7 @@ export default function Home() {
               <h3 className="mt-2 text-2xl">{s.title}</h3>
               <p className="mt-3 text-sm text-muted-foreground">{s.body}</p>
               <a
-                href="mailto:hello@cradl.health"
+                href="mailto:hello@nursesight.health"
                 className="mt-6 inline-flex items-center gap-2 text-sm text-foreground hover:text-primary"
               >
                 Tell us about it <span aria-hidden>→</span>
@@ -311,7 +309,7 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className="mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-14 grid gap-10 sm:grid-cols-2">
           {team.map((p) => (
             <article key={p.name}>
               <div className="overflow-hidden rounded-3xl bg-muted">

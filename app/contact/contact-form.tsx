@@ -4,7 +4,7 @@ import { useState, type FormEvent } from "react";
 import { ArrowRight, Check } from "lucide-react";
 
 // ─── Change this to the real email once Zoho is set up ───────────────────────
-const FORMSUBMIT_ENDPOINT = "https://formsubmit.co/ajax/hello@cradl.health";
+const FORMSUBMIT_ENDPOINT = "https://formsubmit.co/ajax/hello@nursesight.health";
 // ─────────────────────────────────────────────────────────────────────────────
 
 const interests = [
@@ -78,7 +78,7 @@ export function ContactForm() {
     } catch (err) {
       console.error("Contact form error:", err);
       setServerError(
-        "Something went wrong — please try again or email us directly at hello@cradl.health."
+        "Something went wrong — please try again or email us directly at hello@nursesight.health."
       );
     } finally {
       setSubmitting(false);
@@ -114,7 +114,7 @@ export function ContactForm() {
 
       <form onSubmit={onSubmit} noValidate className="mt-8 grid gap-5">
         {/* formsubmit.co config */}
-        <input type="hidden" name="_subject" value="New message via Cradl website" />
+        <input type="hidden" name="_subject" value="New message via Nursesight website" />
         <input type="hidden" name="_template" value="table" />
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_replyto" value="" />

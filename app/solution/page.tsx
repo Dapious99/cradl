@@ -5,10 +5,10 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Solution",
   description:
-    "How Cradl keeps newborns alive through their first year: prenatal enrollment, safe-birth kits, trained clinicians, and a community health network.",
+    "How Nursesight keeps newborns alive through their first year: prenatal enrollment, safe-birth kits, trained clinicians, and a community health network.",
   openGraph: {
-    title: "Solution — Cradl",
-    description: "How Cradl keeps newborns alive through their first year.",
+    title: "Solution — Nursesight",
+    description: "How Nursesight keeps newborns alive through their first year.",
     images: ["/pillar-1.jpg"],
   },
 };
@@ -47,7 +47,7 @@ export default function Solution() {
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
           Most infant deaths cluster in three moments: the weeks before birth, the first day of life,
-          and the first year. Cradl covers all three — with the same team, the same protocols,
+          and the first year. Nursesight covers all three — with the same team, the same protocols,
           and the same phone number.
         </p>
       </section>

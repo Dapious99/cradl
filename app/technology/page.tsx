@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Technology",
   description:
-    "The clinical equipment, cold-chain logistics and data systems Cradl runs in every partner clinic.",
+    "The clinical equipment, cold-chain logistics and data systems Nursesight runs in every partner clinic.",
   openGraph: {
-    title: "Technology — Cradl",
-    description: "The equipment and systems behind Cradl's care.",
+    title: "Technology — Nursesight",
+    description: "The equipment and systems behind Nursesight's care.",
   },
 };
 
@@ -67,7 +67,7 @@ export default function Technology() {
           Unfashionable equipment. <span className="text-primary">Boringly reliable</span>.
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
-          Cradl isn&apos;t a technology company. But the right gear, in the right room, at 3 a.m.,
+          Nursesight isn&apos;t a technology company. But the right gear, in the right room, at 3 a.m.,
           is often the difference between a birthday and a funeral. Here&apos;s what we standardise on.
         </p>
       </section>

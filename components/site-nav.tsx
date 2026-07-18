@@ -16,14 +16,14 @@ export function SiteHeader() {
         <Link href="/" className="flex items-center gap-3">
           <Image
             src="/logo-mark.png"
-            alt="Cradl logo"
+            alt="Nursesight logo"
             width={44}
             height={44}
             className="h-11 w-11"
             priority
           />
           <span className="font-display text-xl tracking-tight">
-            CRADL<span className="text-primary">.</span>
+            NURSESIGHT<span className="text-primary">.</span>
           </span>
         </Link>
         <nav className="hidden items-center gap-8 text-[0.78rem] font-medium uppercase tracking-[0.14em] text-muted-foreground lg:flex">

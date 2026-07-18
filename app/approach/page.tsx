@@ -5,12 +5,12 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Our approach",
   description:
-    "How Cradl prevents infant mortality: prenatal care, safe delivery, and the first year of life.",
+    "How Nursesight prevents infant mortality: prenatal care, safe delivery, and the first year of life.",
   openGraph: {
-    title: "Our approach — Cradl",
+    title: "Our approach — Nursesight",
     description:
-      "Prenatal care, safe delivery, and a supported first year — the three windows Cradl focuses on.",
-    images: ["https://cradl.health/og-approach.jpg"],
+      "Prenatal care, safe delivery, and a supported first year — the three windows Nursesight focuses on.",
+    images: ["https://nursesight.health/og-approach.jpg"],
   },
 };
 
@@ -62,7 +62,7 @@ export default function Approach() {
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
           There is no unsolved mystery in newborn health. The interventions that keep babies alive
-          have existed for decades. Cradl&apos;s job is to make sure they arrive — on time, at the
+          have existed for decades. Nursesight&apos;s job is to make sure they arrive — on time, at the
           right dose, in the right room, next to the right mother. Three chapters, one continuous
           chain of care.
         </p>

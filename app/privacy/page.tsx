@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy",
   description:
-    "How Cradl handles personal and clinical data from mothers, families and partner clinics.",
+    "How Nursesight handles personal and clinical data from mothers, families and partner clinics.",
   openGraph: {
-    title: "Privacy — Cradl",
-    description: "How Cradl handles personal and clinical data.",
+    title: "Privacy — Nursesight",
+    description: "How Nursesight handles personal and clinical data.",
   },
 };
 
@@ -34,14 +34,14 @@ export default function Privacy() {
           <h2 className="text-2xl text-foreground">Where it lives</h2>
           <p className="mt-3">
             Clinical data stays inside partner-clinic systems and is reported into national DHIS2
-            instances. Cradl only sees de-identified, aggregated outcome data unless a partner
+            instances. Nursesight only sees de-identified, aggregated outcome data unless a partner
             clinic explicitly grants case-level access for a specific clinical review.
           </p>
         </div>
         <div>
           <h2 className="text-2xl text-foreground">Website analytics</h2>
           <p className="mt-3">
-            The Cradl website uses privacy-respecting analytics with no cross-site tracking,
+            The Nursesight website uses privacy-respecting analytics with no cross-site tracking,
             no advertising cookies, and no personal identifiers stored.
           </p>
         </div>
@@ -50,8 +50,8 @@ export default function Privacy() {
           <p className="mt-3">
             Any enrolled family may request a copy, correction or deletion of their records through
             their partner clinic. Email{" "}
-            <a href="mailto:privacy@cradl.health" className="text-primary hover:underline">
-              privacy@cradl.health
+            <a href="mailto:privacy@nursesight.health" className="text-primary hover:underline">
+              privacy@nursesight.health
             </a>{" "}
             for anything else.
           </p>

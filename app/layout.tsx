@@ -20,14 +20,14 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Cradl — Keeping newborns alive through their first year",
-    template: "%s — Cradl",
+    default: "Nursesight — Keeping newborns alive through their first year",
+    template: "%s — Nursesight",
   },
   description:
-    "Cradl is a health initiative working with maternity clinics across Africa to end preventable infant deaths — one birth at a time.",
-  metadataBase: new URL("https://cradl.health"),
+    "Nursesight is a health initiative working with maternity clinics across Africa to end preventable infant deaths — one birth at a time.",
+  metadataBase: new URL("https://nursesight.health"),
   openGraph: {
-    siteName: "Cradl",
+    siteName: "Nursesight",
     type: "website",
   },
   twitter: {

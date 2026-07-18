@@ -4,10 +4,10 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Impact",
   description:
-    "The numbers, the stories, and the birthdays behind Cradl's work across partner clinics in Africa.",
+    "The numbers, the stories, and the birthdays behind Nursesight's work across partner clinics in Africa.",
   openGraph: {
-    title: "Impact — Cradl",
-    description: "Numbers, stories and birthdays from Cradl's partner clinics.",
+    title: "Impact — Nursesight",
+    description: "Numbers, stories and birthdays from Nursesight's partner clinics.",
     images: ["/story-1.jpg"],
   },
 };
