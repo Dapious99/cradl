@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms",
   description:
-    "Terms of use for the Nursesight website and partnership commitments to clinics and funders.",
+    "Terms of use for the Nursesight website and subscription terms for clinics and health networks.",
   openGraph: {
     title: "Terms — Nursesight",
-    description: "Terms of use for the Nursesight website and partnerships.",
+    description: "Terms of use for the Nursesight website and subscription terms.",
   },
 };
 
@@ -16,8 +16,9 @@ export default function Terms() {
       <p className="mb-4 text-sm text-muted-foreground">Terms of use</p>
       <h1 className="text-5xl leading-tight md:text-6xl">The plain-language version.</h1>
       <p className="mt-8 text-lg text-muted-foreground">
-        Nothing on this website is medical advice. Nursesight programs are delivered by licensed
-        clinicians inside accredited partner clinics. Last updated July 2026.
+        Nothing on this website is medical advice. Nursesight is software used by licensed
+        clinicians inside the clinics and health networks that subscribe to it. Last updated
+        July 2026.
       </p>
 
       <div className="mt-14 space-y-10 text-muted-foreground">
@@ -30,11 +31,11 @@ export default function Terms() {
           </p>
         </div>
         <div>
-          <h2 className="text-2xl text-foreground">Partnership commitments</h2>
+          <h2 className="text-2xl text-foreground">Customer agreements</h2>
           <p className="mt-3">
-            Partner clinics operate under a written memorandum of understanding covering scope,
-            equipment ownership, data sharing and duration. This website is not itself a contract;
-            specific terms are agreed in writing per partnership.
+            Clinics and health networks use Nursesight under a written subscription agreement
+            covering scope, data ownership, and term. This website is not itself a contract;
+            specific terms are agreed in writing per customer.
           </p>
         </div>
         <div>

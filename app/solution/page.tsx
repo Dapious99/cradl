@@ -5,10 +5,10 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Solution",
   description:
-    "How Nursesight keeps newborns alive through their first year: prenatal enrollment, safe-birth kits, trained clinicians, and a community health network.",
+    "How Nursesight's platform keeps newborns alive through their first year: prenatal scheduling, real-time monitoring, and care-team coordination in one dashboard.",
   openGraph: {
     title: "Solution — Nursesight",
-    description: "How Nursesight keeps newborns alive through their first year.",
+    description: "How Nursesight's platform keeps newborns alive through their first year.",
     images: ["/pillar-1.jpg"],
   },
 };
@@ -47,8 +47,8 @@ export default function Solution() {
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
           Most infant deaths cluster in three moments: the weeks before birth, the first day of life,
-          and the first year. Nursesight covers all three — with the same team, the same protocols,
-          and the same phone number.
+          and the first year. Nursesight&apos;s platform covers all three — one dashboard, the same
+          care team, and real-time alerts throughout.
         </p>
       </section>
 
@@ -91,10 +91,10 @@ export default function Solution() {
 
       <section className="container-prose mt-28 mb-16">
         <div className="rounded-3xl border border-border/70 bg-secondary/40 p-10 md:p-14">
-          <h2 className="max-w-3xl text-3xl md:text-4xl">Want the chain in your clinic?</h2>
+          <h2 className="max-w-3xl text-3xl md:text-4xl">Want this in your clinic?</h2>
           <p className="mt-4 max-w-2xl text-muted-foreground">
-            We onboard two new partner clinics a quarter. Tell us where you are and how many births
-            you see in a month — we&apos;ll take it from there.
+            We&apos;re onboarding pilot clinics for private beta. Tell us where you are and how many
+            births you see in a month — we&apos;ll take it from there.
           </p>
           <Link
             href="/contact"

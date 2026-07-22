@@ -4,10 +4,10 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Stories",
   description:
-    "Field notes from Nursesight's partner clinics: mothers, midwives, and the babies they carried through the first year.",
+    "Beta notes from Nursesight's pilot clinics: care teams, mothers, and the babies they carried through the first year.",
   openGraph: {
     title: "Stories — Nursesight",
-    description: "Field notes from Nursesight's partner clinics.",
+    description: "Beta notes from Nursesight's pilot clinics.",
     images: ["https://nursesight.health/og-stories.jpg"],
   },
 };
@@ -15,27 +15,27 @@ export const metadata: Metadata = {
 const stories = [
   {
     place: "Kilifi, Kenya",
-    title: "The night the ward stayed warm.",
+    title: "The alert that beat the power cut.",
     img: "/story-1.jpg",
-    body: "A power cut at 2 a.m., a premature twin, and a battery-backed warmer that had been installed two weeks earlier. Sister Ruth's account of a night that used to end differently.",
+    body: "A power cut at 2 a.m., a premature twin on the monitor, and a Nursesight alert that reached the on-call midwife's phone before the backup warmer even kicked in.",
   },
   {
     place: "Kaduna, Nigeria",
-    title: "One community health worker, forty-two babies.",
+    title: "One care coordinator, forty-two families.",
     img: "/pillar-1.jpg",
-    body: "How Fatima's weekly rounds — and a laminated wall chart — took her village from four infant deaths a year to zero.",
+    body: "How Fatima's caseload dashboard turned a paper wall chart into a same-day view of every family due for a visit.",
   },
   {
-    place: "Accra, Ghana",
-    title: "A pulse oximeter that cost less than dinner.",
+    place: "Lagos, Nigeria",
+    title: "A pulse-ox reading that flagged in seconds.",
     img: "/pillar-2.jpg",
-    body: "Screening every newborn for critical congenital heart disease used to be a rich-country ritual. We made it a Tuesday morning.",
+    body: "Screening every newborn for critical congenital heart disease used to mean a nurse remembering to check. Now Nursesight flags it automatically.",
   },
   {
-    place: "Blantyre, Malawi",
-    title: "Grace's first birthday.",
+    place: "Private beta",
+    title: "Five minutes that mattered.",
     img: "/hero.jpg",
-    body: "Born at 34 weeks and 1.8 kg, Grace turned one last month. Her mother sent us the photo of the cake.",
+    body: "One beta clinic's own account of how a real-time vitals alert moved a transfer decision up by five minutes — the kind of margin the platform is built for.",
   },
 ];
 
@@ -48,8 +48,8 @@ export default function Stories() {
           The work, in the words of the people doing it.
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
-          These aren&apos;t case studies. They&apos;re the calls, the near-misses, and the birthdays
-          our partner clinics send us — often at odd hours, usually with a photo attached.
+          These aren&apos;t case studies. They&apos;re the calls, the near-misses, and the alerts
+          our pilot clinics send us — often at odd hours, usually with a photo attached.
         </p>
       </section>
 

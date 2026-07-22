@@ -8,9 +8,9 @@ const FORMSUBMIT_ENDPOINT = "https://formsubmit.co/ajax/hello@nursesight.health"
 // ─────────────────────────────────────────────────────────────────────────────
 
 const interests = [
-  "Partner clinic inquiry",
-  "Funding / grants",
-  "Research collaboration",
+  "Book a demo",
+  "Beta access for my clinic",
+  "Partnerships / integrations",
   "Press / media",
   "Joining the team",
   "General question",

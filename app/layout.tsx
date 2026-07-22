@@ -20,11 +20,11 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Nursesight — Keeping newborns alive through their first year",
+    default: "Nursesight — Newborn monitoring & care-coordination software",
     template: "%s — Nursesight",
   },
   description:
-    "Nursesight is a health initiative working with maternity clinics across Africa to end preventable infant deaths — one birth at a time.",
+    "Nursesight is a B2B SaaS platform giving maternity clinics and health networks real-time vitals monitoring, care-coordination workflows, and outcomes reporting in one dashboard. Now in private beta.",
   metadataBase: new URL("https://nursesight.health"),
   openGraph: {
     siteName: "Nursesight",

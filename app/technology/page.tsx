@@ -1,60 +1,60 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Technology",
+  title: "Tech stack",
   description:
-    "The clinical equipment, cold-chain logistics and data systems Nursesight runs in every partner clinic.",
+    "The tech stack behind Nursesight: real-time monitoring, care-coordination workflows, and the cloud and device integrations that power them.",
   openGraph: {
-    title: "Technology — Nursesight",
-    description: "The equipment and systems behind Nursesight's care.",
+    title: "Tech stack — Nursesight",
+    description: "The tech stack behind Nursesight's monitoring and care-coordination platform.",
   },
 };
 
 const stack = [
   {
-    name: "Masimo Rad-G",
+    name: "Real-time vitals monitoring",
     label:
-      "Handheld pulse oximeters in every partner clinic — the single most cost-effective piece of hardware we deploy.",
+      "Ingests pulse-oximetry and vitals data from bedside devices and flags danger signs to care teams within seconds.",
   },
   {
-    name: "GE Lullaby warmers",
+    name: "Care-coordination engine",
     label:
-      "Battery-backed neonatal warmers that outlast a five-hour power cut, standard in every maternity room.",
+      "Automates prenatal-to-first-year visit scheduling, task assignment, and follow-up reminders for care teams.",
   },
   {
-    name: "Chlorhexidine 7.1%",
+    name: "Outcomes dashboard",
     label:
-      "Umbilical cord antiseptic. Cuts newborn sepsis by roughly a third when applied within 24 hours of birth.",
+      "Real-time reporting for clinic leadership and network administrators, exportable to the health information systems clinics already use.",
   },
   {
-    name: "CommCare",
+    name: "Device integrations",
     label:
-      "Offline-first mobile platform for our 240 community health workers. Every home visit syncs when they're back on data.",
+      "Works with the pulse oximeters, neonatal warmers, and cold-chain equipment a clinic already has — no hardware lock-in.",
   },
   {
-    name: "DHIS2",
+    name: "Offline-first mobile app",
     label:
-      "The standard health information system across ministries of health. All our outcome data flows here — no parallel reporting.",
+      "Built for low-connectivity settings. Every check-in syncs the moment a device reconnects.",
   },
   {
-    name: "Cold-chain fridges",
+    name: "Cloud infrastructure",
     label:
-      "Solar direct-drive vaccine refrigerators from B Medical Systems. They keep the immunization schedule honest.",
+      "Encrypted data pipelines and GPU-accelerated machine learning models power real-time alerts, hosted on enterprise-grade cloud infrastructure.",
   },
 ];
 
 const principles = [
   {
-    t: "Boring beats novel",
-    b: "We deploy hardware that's been in the field for a decade and has a repair economy around it. Nothing bleeding-edge in a birth room.",
+    t: "Reliability over hype",
+    b: "We choose proven, battle-tested components over bleeding-edge tech anywhere the software touches patient safety.",
   },
   {
     t: "Offline by default",
-    b: "Everything a nurse touches works with no signal. Sync is a bonus, not a dependency.",
+    b: "Every screen a nurse touches works with no signal. Sync is a bonus, not a dependency.",
   },
   {
-    t: "Data flows to ministries, not away from them",
-    b: "We report into national systems (DHIS2) so our clinics stay legible to the health system they're part of.",
+    t: "Data flows to health systems, not away from them",
+    b: "Nursesight exports into the health information systems clinics already report to — no parallel reporting, no data silos.",
   },
 ];
 
@@ -62,19 +62,20 @@ export default function Technology() {
   return (
     <>
       <section className="container-prose pt-16 pb-8 md:pt-24">
-        <p className="mb-4 text-sm text-muted-foreground">Technology &amp; equipment</p>
+        <p className="mb-4 text-sm text-muted-foreground">Tech stack</p>
         <h1 className="max-w-3xl text-5xl leading-tight md:text-6xl">
-          Unfashionable equipment. <span className="text-primary">Boringly reliable</span>.
+          Reliable software. <span className="text-primary">No bells, no whistles</span>.
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
-          Nursesight isn&apos;t a technology company. But the right gear, in the right room, at 3 a.m.,
-          is often the difference between a birthday and a funeral. Here&apos;s what we standardise on.
+          Nursesight is a technology company, built by clinicians for the room where a delayed
+          alert costs a life. Here&apos;s the tech stack behind the product, currently live in
+          private beta.
         </p>
       </section>
 
       <section className="container-prose mt-16">
         <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
-          The clinical stack
+          The platform
         </p>
         <div className="mt-8 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {stack.map((s) => (
@@ -87,9 +88,9 @@ export default function Technology() {
       </section>
 
       <section className="container-prose mt-24">
-        <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">How we choose</p>
+        <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">How we build</p>
         <h2 className="mt-6 max-w-3xl text-4xl leading-tight md:text-5xl">
-          Three principles that decide what gets bought.
+          Three principles that decide what ships.
         </h2>
         <div className="mt-12 grid gap-10 md:grid-cols-3">
           {principles.map((p) => (
@@ -104,11 +105,12 @@ export default function Technology() {
       <section className="container-prose mt-24 mb-16">
         <blockquote className="rounded-3xl border border-border p-10 md:p-14">
           <p className="font-display text-2xl leading-snug md:text-3xl">
-            &quot;The best piece of technology in the ward is a pulse oximeter that a nurse actually
-            trusts and reaches for. Everything else is downstream of that.&quot;
+            &quot;The best piece of technology in the ward is a pulse oximeter that a nurse
+            actually trusts and reaches for. Nursesight&apos;s job is to make sure the software
+            behind it is just as reliable.&quot;
           </p>
           <footer className="mt-4 text-sm text-muted-foreground">
-            — Dr. Samuel Otieno, co-founder
+            — Hannah Richman, co-founder &amp; CTO
           </footer>
         </blockquote>
       </section>

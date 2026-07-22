@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import { LinkedInIcon, XIcon } from "@/components/social-icons";
 
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Why Nursesight exists, how it started, and the founding team behind every partner clinic.",
+    "Why Nursesight exists, how it started, and the founding team building it — now in private beta with pilot clinics.",
   openGraph: {
     title: "About — Nursesight",
     description: "Why Nursesight exists and the team behind it.",
@@ -13,25 +14,9 @@ export const metadata: Metadata = {
   },
 };
 
-function LinkedInIcon({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden>
-      <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-    </svg>
-  );
-}
-
-function XIcon({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden>
-      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-    </svg>
-  );
-}
-
 const people = [
   {
-    name: "Dr. Amina Okafor",
+    name: "Emedolu Chinonso",
     role: "Chief Executive Officer",
     img: "/team-1.jpg",
     place: "Lagos, Nigeria",
@@ -41,9 +26,9 @@ const people = [
     },
   },
   {
-    name: "Dr. Samuel Otieno",
+    name: "Hannah Richman",
     role: "Chief Technology Officer",
-    img: "/team-2.jpg",
+    img: "/team-3.jpg",
     place: "Nairobi, Kenya",
     socials: null,
   },
@@ -55,13 +40,14 @@ export default function About() {
       <section className="container-prose pt-16 pb-8 md:pt-24">
         <p className="mb-4 text-sm text-muted-foreground">About us</p>
         <h1 className="max-w-3xl text-5xl leading-tight md:text-6xl">
-          A small clinical team, allergic to{" "}
-          <span className="text-primary">fundraising theatre</span>.
+          A small clinical and engineering team, obsessed with{" "}
+          <span className="text-primary">reliability</span>.
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
-          Nursesight started in 2021 when two clinicians got tired of watching newborns die of
-          things the medical literature had solved decades earlier. We built the initiative we
-          wished had shown up in our own wards.
+          Chinonso and Hannah spent a decade watching newborns die of things the medical
+          literature had solved decades earlier. In 2025 they started building the software they
+          wished had existed in their own wards. Nursesight is now in private beta with maternity
+          clinics across Nigeria and Kenya.
         </p>
       </section>
 
@@ -72,7 +58,7 @@ export default function About() {
         </div>
         <div className="space-y-5 text-muted-foreground">
           <p>
-            Amina and Samuel met at a WHO working group on essential newborn care in 2019. Both had
+            Chinonso and Hannah met at a WHO working group on essential newborn care in 2019. Both had
             spent a decade watching preventable neonatal deaths in otherwise well-resourced hospitals.
           </p>
           <p>
@@ -81,8 +67,8 @@ export default function About() {
             immunization schedule.
           </p>
           <p>
-            Nursesight is the answer to a question they kept asking: what if one small team owned
-            the whole chain, for a small number of clinics, for a long time?
+            Nursesight is the answer to a question they kept asking: what if the software owned
+            the handoffs, so no family fell through the cracks between visits?
           </p>
         </div>
       </section>
@@ -144,11 +130,11 @@ export default function About() {
       <section className="container-prose mt-24 mb-16">
         <div className="rounded-3xl bg-secondary/60 p-10 md:p-14">
           <h2 className="max-w-3xl text-3xl md:text-4xl">
-            Plus 240 community health workers, 38 midwives, and 12 partner clinics.
+            Plus a growing beta cohort of clinicians and care coordinators across Nigeria and Kenya.
           </h2>
           <p className="mt-4 max-w-2xl text-muted-foreground">
-            The people whose names should be on this page, really. They are the reason 94% of the
-            babies born into our program see their first birthday.
+            The people whose names should be on this page, really. Every pilot clinic that trusts
+            us with their care team&apos;s workflow makes the product better.
           </p>
           <Link
             href="/contact"

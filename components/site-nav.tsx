@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const nav = [
   { href: "/solution", label: "Solution" },
-  { href: "/technology", label: "Technology" },
-  { href: "/impact", label: "Impact" },
+  { href: "/technology", label: "Tech stack" },
+  { href: "/impact", label: "Results" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ] as const;
@@ -41,7 +41,7 @@ export function SiteHeader() {
           href="/contact"
           className="hidden items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground hover:opacity-90 md:inline-flex"
         >
-          Partner with us <span aria-hidden>→</span>
+          Request a demo <span aria-hidden>→</span>
         </Link>
       </div>
     </header>

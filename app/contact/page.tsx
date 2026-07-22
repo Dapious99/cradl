@@ -3,10 +3,10 @@ import { ContactForm } from "./contact-form";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Write to Nursesight. We answer every message, usually within a day.",
+  description: "Book a demo or write to Nursesight. We answer every message, usually within a day.",
   openGraph: {
     title: "Contact — Nursesight",
-    description: "Write to Nursesight. We answer every message.",
+    description: "Book a demo or write to Nursesight. We answer every message.",
   },
 };
 
@@ -18,12 +18,12 @@ export default function Contact() {
         Send us a rambling email. We read every one.
       </h1>
       <p className="mt-6 max-w-2xl text-lg text-muted-foreground">
-        Tell us who you are — a clinic, a funder, a mother, a journalist — and what
+        Tell us who you are — a clinic, a health network, a mother, a journalist — and what
         you&apos;re trying to do. We usually write back within a day, often with questions.
       </p>
 
       {/* Quick contact links */}
-      <div className="mt-10 grid gap-6 sm:grid-cols-3">
+      <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">General</p>
           <a
@@ -43,12 +43,21 @@ export default function Contact() {
           </a>
         </div>
         <div>
-          <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">Funders</p>
+          <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">Partnerships</p>
           <a
             href="mailto:partners@nursesight.health"
             className="mt-1 block text-lg font-medium hover:text-primary transition-colors"
           >
             partners@nursesight.health
+          </a>
+        </div>
+        <div>
+          <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">Phone</p>
+          <a
+            href="tel:+2348109227529"
+            className="mt-1 block text-lg font-medium hover:text-primary transition-colors"
+          >
+            +234 810 922 7529
           </a>
         </div>
       </div>
@@ -66,8 +75,8 @@ export default function Contact() {
             <p className="mt-3 text-sm text-muted-foreground">— The Nursesight team</p>
           </div>
           <div className="rounded-3xl border border-border/60 bg-secondary/40 p-8 text-sm text-muted-foreground space-y-3">
-            <p className="font-medium text-foreground">Based across</p>
-            <p>Lagos · Nairobi · Accra</p>
+            <p className="font-medium text-foreground">Our office</p>
+            <p>No 3 Abalukwu Street, Achara Layout, Enugu State</p>
             <p className="pt-2 border-t border-border/60">
               We reply within one working day. For urgent clinical matters, call the clinic
               directly — we are not an emergency service.

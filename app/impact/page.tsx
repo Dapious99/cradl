@@ -2,47 +2,47 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Impact",
+  title: "Results",
   description:
-    "The numbers, the stories, and the birthdays behind Nursesight's work across partner clinics in Africa.",
+    "The numbers and early stories behind Nursesight's private beta with maternity clinics across Nigeria and Kenya.",
   openGraph: {
-    title: "Impact — Nursesight",
-    description: "Numbers, stories and birthdays from Nursesight's partner clinics.",
+    title: "Results — Nursesight",
+    description: "Numbers and early stories from Nursesight's private beta.",
     images: ["/story-1.jpg"],
   },
 };
 
 const stats = [
-  { k: "94%", v: "of enrolled babies see their first birthday" },
-  { k: "12", v: "partner clinics across four countries" },
-  { k: "240", v: "community health workers in the network" },
-  { k: "8,400+", v: "babies enrolled since 2021" },
+  { k: "5", v: "pilot clinics in private beta" },
+  { k: "2", v: "countries live today" },
+  { k: "43", v: "clinicians & care coordinators onboarded" },
+  { k: "2,300+", v: "vitals checks logged on the platform" },
 ];
 
 const stories = [
   {
-    place: "Kilifi, Kenya",
-    title: "The night the ward stayed warm.",
+    place: "Kilifi, Kenya — pilot clinic",
+    title: "The alert that beat the power cut.",
     img: "/story-1.jpg",
-    body: "A power cut at 2 a.m., a premature twin, and a battery-backed warmer installed two weeks earlier. Sister Ruth's account of a night that used to end differently.",
+    body: "A power cut at 2 a.m., a premature twin on the monitor, and a Nursesight alert that reached the on-call midwife's phone before the backup warmer even kicked in.",
   },
   {
-    place: "Kaduna, Nigeria",
-    title: "One community health worker, forty-two babies.",
+    place: "Kaduna, Nigeria — pilot clinic",
+    title: "One care coordinator, forty-two families.",
     img: "/pillar-1.jpg",
-    body: "How Fatima's weekly rounds — and a laminated wall chart — took her village from four infant deaths a year to zero.",
+    body: "How Fatima's caseload dashboard turned a paper wall chart into a same-day view of every family due for a visit.",
   },
   {
-    place: "Accra, Ghana",
-    title: "A pulse oximeter that cost less than dinner.",
+    place: "Lagos, Nigeria — pilot clinic",
+    title: "A pulse-ox reading that flagged in seconds.",
     img: "/pillar-2.jpg",
-    body: "Screening every newborn for critical congenital heart disease used to be a rich-country ritual. We made it a Tuesday morning.",
+    body: "Screening every newborn for critical congenital heart disease used to mean a nurse remembering to check. Now Nursesight flags it automatically.",
   },
   {
-    place: "Blantyre, Malawi",
-    title: "Grace's first birthday.",
+    place: "Private beta",
+    title: "Five minutes that mattered.",
     img: "/hero.jpg",
-    body: "Born at 34 weeks and 1.8 kg, Grace turned one last month. Her mother sent us the photo of the cake.",
+    body: "One beta clinic's own account of how a real-time vitals alert moved a transfer decision up by five minutes — the kind of margin the platform is built for.",
   },
 ];
 
@@ -50,13 +50,13 @@ export default function Impact() {
   return (
     <>
       <section className="container-prose pt-16 pb-8 md:pt-24">
-        <p className="mb-4 text-sm text-muted-foreground">Impact</p>
+        <p className="mb-4 text-sm text-muted-foreground">Results</p>
         <h1 className="max-w-3xl text-5xl leading-tight md:text-6xl">
           The work, in <span className="text-primary">numbers</span> and in people.
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
-          We publish our outcomes every quarter, shared with clinic staff and funders in the same
-          document. No dashboards for donors, spreadsheets for nurses.
+          We publish usage and outcome metrics every month, visible to every clinic on the
+          platform — the same numbers your team sees, not a sanitized deck.
         </p>
       </section>
 
@@ -70,9 +70,9 @@ export default function Impact() {
       </section>
 
       <section className="container-prose mt-24">
-        <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">Field notes</p>
+        <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">Beta notes</p>
         <h2 className="mt-6 max-w-3xl text-4xl leading-tight md:text-5xl">
-          Not case studies. The calls, the near-misses, the birthdays.
+          Not case studies. The calls, the near-misses, the alerts that worked.
         </h2>
       </section>
 

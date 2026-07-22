@@ -12,64 +12,64 @@ const partners = [
 const services = [
   {
     n: "01",
-    title: "Prenatal enrollment",
-    body: "Every mother in our catchment gets four structured check-ins, a birth plan, and a named midwife — long before labor starts.",
+    title: "Prenatal scheduling",
+    body: "An automated four-visit prenatal schedule, a birth plan, and a named midwife assigned in the app — long before labor starts.",
   },
   {
     n: "02",
-    title: "Safe-birth kits",
-    body: "Chlorhexidine, a clean-delivery kit and a working pulse oximeter in every partner clinic. Small equipment, huge difference.",
+    title: "Vitals monitoring & alerts",
+    body: "Pulse-ox and vitals data streams into Nursesight in real time, with instant alerts routed to the right clinician when something looks off.",
   },
   {
     n: "03",
-    title: "Clinician training",
-    body: "Helping Babies Breathe, essential newborn care, neonatal resuscitation. Refreshed on-site, every quarter, by our own doctors.",
+    title: "Clinician workflows",
+    body: "Helping Babies Breathe, essential newborn care, and resuscitation checklists built into every shift — not a laminated poster on the wall.",
   },
   {
     n: "04",
-    title: "Community health workers",
-    body: "A 240-person network that visits every enrolled family in weeks 1, 2, 4, 8 — then monthly through the first birthday.",
+    title: "Care-team coordination",
+    body: "Assign and track home visits across your care team in weeks 1, 2, 4, 8 — then monthly through the first birthday.",
   },
   {
     n: "05",
-    title: "Immunization on time",
-    body: "Cold chain, reminders, and a real human who shows up when a mother misses a dose. Coverage above 95% in every partner clinic.",
+    title: "Immunization tracking",
+    body: "Automated reminders and coverage tracking, synced with cold-chain status and the national immunization schedule.",
   },
   {
     n: "06",
-    title: "A second opinion",
-    body: "Any partner clinic can call a Nursesight neonatologist, day or night. Because sometimes the whole thing turns on one phone call.",
+    title: "Clinical escalation",
+    body: "Any care team on Nursesight can escalate to an on-call neonatologist, day or night, from inside the app.",
   },
 ];
 
 const process = [
   {
     n: "01",
-    title: "We listen (a lot)",
-    body: "Weeks of sitting in the maternity ward before we suggest a single change. Every clinic is different, and the answers usually come from the nurses.",
+    title: "We map your workflow",
+    body: "Before you see a single screen, we sit with your care team to understand how patients actually move through your clinic.",
   },
   {
     n: "02",
-    title: "We build, in the open",
-    body: "Short cycles, monthly outcomes shared with clinic staff and funders. You'll never wonder what a Nursesight dollar bought.",
+    title: "We configure, in the open",
+    body: "Short setup cycles, with usage and outcomes visible to your team as we go. No black-box onboarding.",
   },
   {
     n: "03",
-    title: "We stay, quietly",
-    body: "No ribbon-cuttings and no exit strategy. Once a clinic joins Nursesight we're on the WhatsApp group for good.",
+    title: "We stay in the loop",
+    body: "No hand-off to a support ticket queue. Once your clinic is live, you're on a direct line to the team that built the product.",
   },
 ];
 
 const reasons = [
-  "You talk to clinicians, not fundraisers",
-  "Fixed program budgets, no surprise asks",
-  "We say no when a project isn't the right fit",
-  "Long after the launch photo, we're still there",
+  "You talk to the people who built it, not a support queue",
+  "Transparent beta pricing, no surprise invoices",
+  "We say no when Nursesight isn't the right fit",
+  "Long after onboarding, we're still in your inbox",
 ];
 
 const team = [
-  { img: "/team-1.jpg", name: "Dr. Amina Okafor", role: "Chief Executive Officer", place: "Lagos" },
-  { img: "/team-2.jpg", name: "Dr. Samuel Otieno", role: "Chief Technology Officer", place: "Nairobi" },
+  { img: "/team-1.jpg", name: "Emedolu Chinonso", role: "Chief Executive Officer", place: "Lagos" },
+  { img: "/team-3.jpg", name: "Hannah Richman", role: "Chief Technology Officer", place: "Nairobi" },
 ];
 
 export default function Home() {
@@ -83,33 +83,34 @@ export default function Home() {
             Hello, we&apos;re Nursesight.
           </p>
           <h1 className="text-5xl leading-[1.02] md:text-6xl">
-            We keep newborns alive through their{" "}
+            The software that keeps newborns alive through their{" "}
             <span className="text-primary">first year</span>.
           </h1>
           <p className="mt-8 max-w-lg text-lg text-muted-foreground">
-            No fundraising theatre, no fifty-person field visits. Just a small,
-            senior team of clinicians who work with maternity clinics across
-            Africa to end preventable infant deaths — one birth at a time.
+            No bloated hospital software, no six-month implementations. A
+            real-time monitoring and care-coordination platform built by
+            clinicians — now live in private beta with maternity clinics
+            across Nigeria and Kenya.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <Link
               href="/contact"
               className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground hover:opacity-90"
             >
-              Say hi <span aria-hidden>→</span>
+              Request a demo <span aria-hidden>→</span>
             </Link>
             <Link
               href="/approach"
               className="rounded-full border border-border px-6 py-3 text-sm font-medium hover:bg-muted"
             >
-              See what we do
+              See how it works
             </Link>
           </div>
           <blockquote className="mt-10 max-w-md text-sm italic text-muted-foreground">
-            &quot;Honestly, most of the babies we save are saved by a nurse who had
-            the right kit within arm&apos;s reach. That&apos;s the whole job.&quot;
+            &quot;Most of the babies we help save are saved by a nurse who got
+            the right alert at the right time. That&apos;s the whole job.&quot;
             <footer className="mt-3 not-italic text-xs uppercase tracking-[0.14em]">
-              — CEO, Nursesight
+              — Emedolu Chinonso, CEO, Nursesight
             </footer>
           </blockquote>
         </div>
@@ -130,7 +131,7 @@ export default function Home() {
               Right now
             </p>
             <p className="mt-1 font-display text-lg leading-snug">
-              Enrolling 2 new partner clinics this quarter.
+              5 pilot clinics live. Onboarding more for private beta.
             </p>
           </div>
         </div>
@@ -138,6 +139,9 @@ export default function Home() {
 
       {/* Partners strip */}
       <section className="border-y border-border/60 bg-secondary/40">
+        <div className="container-prose pt-6 text-center text-xs uppercase tracking-[0.18em] text-muted-foreground md:text-left">
+          Built on established clinical protocols from
+        </div>
         <div className="container-prose flex flex-wrap items-center justify-between gap-y-6 py-8 text-sm">
           {partners.map((p, i) => (
             <div key={p.name} className="flex items-center gap-4">
@@ -176,11 +180,12 @@ export default function Home() {
           </div>
           <div>
             <p className="font-medium text-foreground">
-              Clinics that vanish after donor cycles end
+              Care that falls apart between systems
             </p>
             <p className="mt-1">
-              Programs launch, funding runs out, equipment breaks. We stay on so
-              the chain of care doesn&apos;t quietly fall apart in year two.
+              Paper charts, WhatsApp groups, and spreadsheets that don&apos;t talk
+              to each other. The chain of care breaks in the handoffs, not
+              the medicine — that&apos;s the gap Nursesight&apos;s software closes.
             </p>
           </div>
           <div>
@@ -188,8 +193,9 @@ export default function Home() {
               Mothers who don&apos;t know who to call at 3 a.m.
             </p>
             <p className="mt-1">
-              A named midwife and a working phone number changes the outcome
-              more than any single piece of hardware we install.
+              A named midwife and an alert that reaches the right phone
+              changes the outcome more than any single piece of hardware in
+              the room.
             </p>
           </div>
         </div>
@@ -217,12 +223,12 @@ export default function Home() {
               <p className="font-display text-sm text-primary">{s.n}</p>
               <h3 className="mt-2 text-2xl">{s.title}</h3>
               <p className="mt-3 text-sm text-muted-foreground">{s.body}</p>
-              <a
-                href="mailto:hello@nursesight.health"
+              <Link
+                href="/contact"
                 className="mt-6 inline-flex items-center gap-2 text-sm text-foreground hover:text-primary"
               >
-                Tell us about it <span aria-hidden>→</span>
-              </a>
+                Ask about this <span aria-hidden>→</span>
+              </Link>
             </article>
           ))}
         </div>
@@ -237,8 +243,9 @@ export default function Home() {
           Three honest stages. No theatre.
         </h2>
         <p className="mt-6 max-w-2xl text-muted-foreground">
-          You&apos;ll always know what we&apos;re doing, why, and what it costs. If a
-          program isn&apos;t worth running, we&apos;ll say so before a single dollar moves.
+          You&apos;ll always know what we&apos;re doing, why, and what it costs. If
+          Nursesight isn&apos;t the right fit for your clinic, we&apos;ll say so before
+          you sign anything.
         </p>
         <div className="mt-14 grid gap-10 md:grid-cols-3">
           {process.map((p) => (
@@ -254,8 +261,8 @@ export default function Home() {
             &quot;They actually picked up the phone.&quot;
           </p>
           <footer className="mt-3 text-sm text-muted-foreground">
-            — paraphrasing every clinic manager we&apos;ve onboarded after switching
-            from a bigger NGO.
+            — paraphrasing every pilot clinic we&apos;ve onboarded so far, after
+            switching from a bigger vendor.
           </footer>
         </blockquote>
       </section>
@@ -270,9 +277,9 @@ export default function Home() {
             We&apos;re small on purpose.
           </h2>
           <p className="mt-6 max-w-md text-muted-foreground">
-            The same people who design a program run it in the field and answer
-            your messages. There&apos;s no country director translating between you
-            and a nurse in another time zone. It&apos;s just us.
+            The same people who design the product ship it and answer your
+            messages. There&apos;s no account manager translating between you
+            and the engineer in another time zone. It&apos;s just us.
           </p>
         </div>
         <ul className="divide-y divide-border/60">
@@ -296,9 +303,9 @@ export default function Home() {
               The people you&apos;re actually working with.
             </h2>
             <p className="mt-6 max-w-2xl text-muted-foreground">
-              A small clinical leadership plus the midwives and community health
-              workers who show up at every birth. No country directors, no juniors
-              learning on a mother&apos;s timeline.
+              A small clinical and engineering team who ship the product and
+              answer your messages personally. No account managers relaying
+              between you and the people who build it.
             </p>
           </div>
           <Link
@@ -342,15 +349,15 @@ export default function Home() {
             Send us a rambling email. We read every one.
           </h2>
           <p className="mt-6 max-w-2xl text-muted-foreground">
-            No forms with twenty fields. Just tell us what clinic you run — or
-            what program you&apos;re trying to fund — and we&apos;ll write back within a
-            day, usually with questions.
+            No forms with twenty fields. Just tell us what clinic or health
+            network you run, and we&apos;ll write back within a day — usually
+            with questions, and a pilot proposal.
           </p>
           <Link
             href="/contact"
             className="mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground hover:opacity-90"
           >
-            Say hi <span aria-hidden>→</span>
+            Request a demo <span aria-hidden>→</span>
           </Link>
         </div>
       </section>
