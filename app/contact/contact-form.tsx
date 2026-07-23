@@ -3,9 +3,7 @@
 import { useState, type FormEvent } from "react";
 import { ArrowRight, Check } from "lucide-react";
 
-// ─── Change this to the real email once Zoho is set up ───────────────────────
-const FORMSUBMIT_ENDPOINT = "https://formsubmit.co/ajax/hello@nursesight.health";
-// ─────────────────────────────────────────────────────────────────────────────
+const FORMSUBMIT_ENDPOINT = "https://formsubmit.co/ajax/nonso@nursesight.site";
 
 const interests = [
   "Book a demo",
@@ -78,7 +76,7 @@ export function ContactForm() {
     } catch (err) {
       console.error("Contact form error:", err);
       setServerError(
-        "Something went wrong — please try again or email us directly at hello@nursesight.health."
+        "Something went wrong — please try again or email us directly at nonso@nursesight.site."
       );
     } finally {
       setSubmitting(false);

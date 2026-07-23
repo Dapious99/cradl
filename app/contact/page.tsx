@@ -27,28 +27,28 @@ export default function Contact() {
         <div>
           <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">General</p>
           <a
-            href="mailto:hello@nursesight.health"
+            href="mailto:nonso@nursesight.site"
             className="mt-1 block text-lg font-medium text-primary hover:underline"
           >
-            hello@nursesight.health
+            nonso@nursesight.site
           </a>
         </div>
         <div>
           <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">Clinics</p>
           <a
-            href="mailto:clinics@nursesight.health"
+            href="mailto:nonso@nursesight.site"
             className="mt-1 block text-lg font-medium hover:text-primary transition-colors"
           >
-            clinics@nursesight.health
+            nonso@nursesight.site
           </a>
         </div>
         <div>
           <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">Partnerships</p>
           <a
-            href="mailto:partners@nursesight.health"
+            href="mailto:nonso@nursesight.site"
             className="mt-1 block text-lg font-medium hover:text-primary transition-colors"
           >
-            partners@nursesight.health
+            nonso@nursesight.site
           </a>
         </div>
         <div>

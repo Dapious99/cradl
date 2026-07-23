@@ -51,8 +51,8 @@ export default function Privacy() {
           <p className="mt-3">
             Any enrolled family may request a copy, correction or deletion of their records through
             the clinic using Nursesight. Email{" "}
-            <a href="mailto:privacy@nursesight.health" className="text-primary hover:underline">
-              privacy@nursesight.health
+            <a href="mailto:nonso@nursesight.site" className="text-primary hover:underline">
+              nonso@nursesight.site
             </a>{" "}
             for anything else.
           </p>

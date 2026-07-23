@@ -50,8 +50,8 @@ export default function Terms() {
           <h2 className="text-2xl text-foreground">Contact</h2>
           <p className="mt-3">
             Questions about these terms:{" "}
-            <a href="mailto:hello@nursesight.health" className="text-primary hover:underline">
-              hello@nursesight.health
+            <a href="mailto:nonso@nursesight.site" className="text-primary hover:underline">
+              nonso@nursesight.site
             </a>
             .
           </p>

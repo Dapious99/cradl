@@ -61,10 +61,10 @@ export function SiteFooter() {
         <div className="text-sm">
           <p className="mb-3 font-medium">Get in touch</p>
           <a
-            href="mailto:hello@nursesight.health"
+            href="mailto:nonso@nursesight.site"
             className="text-muted-foreground hover:text-foreground transition-colors"
           >
-            hello@nursesight.health
+            nonso@nursesight.site
           </a>
           <a
             href="tel:+2348109227529"
