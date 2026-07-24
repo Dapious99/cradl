@@ -49,7 +49,8 @@ export default function Stories() {
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
           These aren&apos;t case studies. They&apos;re the calls, the near-misses, and the alerts
-          our pilot clinics send us — often at odd hours, usually with a photo attached.
+          from clinics inside our HMO, NGO, and ministry partners&apos; networks — often at odd
+          hours, usually with a photo attached.
         </p>
       </section>
 

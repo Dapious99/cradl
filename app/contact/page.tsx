@@ -3,10 +3,10 @@ import { ContactForm } from "./contact-form";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Book a demo or write to Nursesight. We answer every message, usually within a day.",
+  description: "Get started with Nursesight or write to us. We answer every message, usually within a day.",
   openGraph: {
     title: "Contact — Nursesight",
-    description: "Book a demo or write to Nursesight. We answer every message.",
+    description: "Get started with Nursesight or write to us. We answer every message.",
   },
 };
 
@@ -18,8 +18,9 @@ export default function Contact() {
         Send us a rambling email. We read every one.
       </h1>
       <p className="mt-6 max-w-2xl text-lg text-muted-foreground">
-        Tell us who you are — a clinic, a health network, a mother, a journalist — and what
-        you&apos;re trying to do. We usually write back within a day, often with questions.
+        Tell us who you are — an HMO, an NGO, a ministry of health, a hospital network, a
+        journalist — and what you&apos;re trying to do. We usually write back within a day, often
+        with questions.
       </p>
 
       {/* Quick contact links */}
@@ -34,7 +35,7 @@ export default function Contact() {
           </a>
         </div>
         <div>
-          <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">Clinics</p>
+          <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">HMOs &amp; NGOs</p>
           <a
             href="mailto:nonso@nursesight.site"
             className="mt-1 block text-lg font-medium hover:text-primary transition-colors"

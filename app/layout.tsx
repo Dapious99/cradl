@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: "%s — Nursesight",
   },
   description:
-    "Nursesight is a B2B SaaS platform giving maternity clinics and health networks real-time vitals monitoring, care-coordination workflows, and outcomes reporting in one dashboard. Now in private beta.",
+    "Nursesight is a B2B SaaS platform giving HMOs, NGOs, ministries of health, and the maternity clinic networks they run real-time vitals monitoring, care-coordination workflows, and outcomes reporting in one dashboard. Now in private beta.",
   metadataBase: new URL("https://nursesight.health"),
   openGraph: {
     siteName: "Nursesight",

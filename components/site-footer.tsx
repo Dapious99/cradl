@@ -20,8 +20,9 @@ export function SiteFooter() {
             </span>
           </Link>
           <p className="mt-4 max-w-sm text-sm text-muted-foreground">
-            Monitoring and care-coordination software dedicated to ending
-            preventable infant deaths, one birth at a time.
+            Monitoring and care-coordination software built for HMOs, NGOs,
+            and ministries of health working to end preventable infant deaths
+            across their networks.
           </p>
           <div className="mt-4 flex items-center gap-3">
             <a

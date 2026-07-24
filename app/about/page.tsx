@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About — Nursesight",
     description: "Why Nursesight exists and the team behind it.",
-    images: ["/team-1.jpg"],
+    images: ["/team-2.jpg"],
   },
 };
 
@@ -18,7 +18,7 @@ const people = [
   {
     name: "Emedolu Chinonso",
     role: "Chief Executive Officer",
-    img: "/team-1.jpg",
+    img: "/team-2.jpg",
     place: "Lagos, Nigeria",
     socials: {
       linkedin: "https://www.linkedin.com/in/chinonso-emmanuel-083b18327/",
@@ -45,9 +45,9 @@ export default function About() {
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
           Chinonso and Hannah spent a decade watching newborns die of things the medical
-          literature had solved decades earlier. In 2025 they started building the software they
-          wished had existed in their own wards. Nursesight is now in private beta with maternity
-          clinics across Nigeria and Kenya.
+          literature had solved decades earlier. In 2025 they started building the software
+          HMOs, NGOs, and ministries of health need to close that gap at scale. Nursesight is now
+          in private beta with maternity clinics across Nigeria and Kenya.
         </p>
       </section>
 
@@ -68,7 +68,12 @@ export default function About() {
           </p>
           <p>
             Nursesight is the answer to a question they kept asking: what if the software owned
-            the handoffs, so no family fell through the cracks between visits?
+            the handoffs, so no health system lost a single patient between visits?
+          </p>
+          <p>
+            That question is why we build for the institutions that carry the accountability —
+            HMOs managing risk across a member population, NGOs running maternal-health
+            programmes, and ministries of health reporting outcomes at national scale.
           </p>
         </div>
       </section>
@@ -130,11 +135,12 @@ export default function About() {
       <section className="container-prose mt-24 mb-16">
         <div className="rounded-3xl bg-secondary/60 p-10 md:p-14">
           <h2 className="max-w-3xl text-3xl md:text-4xl">
-            Plus a growing beta cohort of clinicians and care coordinators across Nigeria and Kenya.
+            Plus a growing beta cohort of clinicians, care coordinators, and institutional
+            partners across Nigeria and Kenya.
           </h2>
           <p className="mt-4 max-w-2xl text-muted-foreground">
-            The people whose names should be on this page, really. Every pilot clinic that trusts
-            us with their care team&apos;s workflow makes the product better.
+            The people whose names should be on this page, really. Every HMO, NGO, and ministry
+            partner that trusts us with their network&apos;s workflow makes the product better.
           </p>
           <Link
             href="/contact"

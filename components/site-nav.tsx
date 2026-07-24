@@ -41,7 +41,7 @@ export function SiteHeader() {
           href="/contact"
           className="hidden items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground hover:opacity-90 md:inline-flex"
         >
-          Request a demo <span aria-hidden>→</span>
+          Get Started <span aria-hidden>→</span>
         </Link>
       </div>
     </header>

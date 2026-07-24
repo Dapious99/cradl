@@ -55,8 +55,9 @@ export default function Impact() {
           The work, in <span className="text-primary">numbers</span> and in people.
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
-          We publish usage and outcome metrics every month, visible to every clinic on the
-          platform — the same numbers your team sees, not a sanitized deck.
+          We publish usage and outcome metrics every month, visible to every HMO, NGO, and
+          ministry partner on the platform — the same numbers your reporting team sees, not a
+          sanitized deck.
         </p>
       </section>
 

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { LinkedInIcon, XIcon } from "@/components/social-icons";
 
 const partners = [
   { name: "WHO", label: "Essential newborn care protocols" },
@@ -46,12 +47,12 @@ const process = [
   {
     n: "01",
     title: "We map your workflow",
-    body: "Before you see a single screen, we sit with your care team to understand how patients actually move through your clinic.",
+    body: "Before you see a single screen, we sit with your programme leads to understand how patients actually move through the clinics in your network.",
   },
   {
     n: "02",
     title: "We configure, in the open",
-    body: "Short setup cycles, with usage and outcomes visible to your team as we go. No black-box onboarding.",
+    body: "Short setup cycles, with usage and outcomes visible to your organization as we go. No black-box onboarding.",
   },
   {
     n: "03",
@@ -68,8 +69,23 @@ const reasons = [
 ];
 
 const team = [
-  { img: "/team-1.jpg", name: "Emedolu Chinonso", role: "Chief Executive Officer", place: "Lagos" },
-  { img: "/team-3.jpg", name: "Hannah Richman", role: "Chief Technology Officer", place: "Nairobi" },
+  {
+    img: "/team-2.jpg",
+    name: "Emedolu Chinonso",
+    role: "Chief Executive Officer",
+    place: "Lagos",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/chinonso-emmanuel-083b18327/",
+      twitter: "https://x.com/OCloud11",
+    },
+  },
+  {
+    img: "/team-3.jpg",
+    name: "Hannah Richman",
+    role: "Chief Technology Officer",
+    place: "Nairobi",
+    socials: null,
+  },
 ];
 
 export default function Home() {
@@ -83,21 +99,21 @@ export default function Home() {
             Hello, we&apos;re Nursesight.
           </p>
           <h1 className="text-5xl leading-[1.02] md:text-6xl">
-            The software that keeps newborns alive through their{" "}
-            <span className="text-primary">first year</span>.
+            The care-coordination platform health systems deploy to keep
+            newborns alive through their <span className="text-primary">first year</span>.
           </h1>
           <p className="mt-8 max-w-lg text-lg text-muted-foreground">
             No bloated hospital software, no six-month implementations. A
             real-time monitoring and care-coordination platform built by
-            clinicians — now live in private beta with maternity clinics
-            across Nigeria and Kenya.
+            clinicians for HMOs, NGOs, and ministries of health — now live in
+            private beta with maternity clinics across Nigeria and Kenya.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <Link
               href="/contact"
               className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground hover:opacity-90"
             >
-              Request a demo <span aria-hidden>→</span>
+              Get Started <span aria-hidden>→</span>
             </Link>
             <Link
               href="/approach"
@@ -131,7 +147,8 @@ export default function Home() {
               Right now
             </p>
             <p className="mt-1 font-display text-lg leading-snug">
-              5 pilot clinics live. Onboarding more for private beta.
+              5 pilot clinics live. Onboarding HMOs, NGOs, and health
+              ministries for private beta.
             </p>
           </div>
         </div>
@@ -211,8 +228,8 @@ export default function Home() {
         </h2>
         <p className="mt-6 max-w-2xl text-muted-foreground">
           We&apos;d rather be brilliant at six things than mediocre at sixty. If your
-          clinic needs something outside this list, we&apos;ll happily point you to
-          someone who does it better.
+          network, NGO programme, or ministry needs something outside this list, we&apos;ll
+          happily point you to someone who does it better.
         </p>
         <div className="mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {services.map((s) => (
@@ -237,15 +254,15 @@ export default function Home() {
       {/* How we work */}
       <section className="container-prose mt-28">
         <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
-          How we work with a clinic
+          How we work with a health system
         </p>
         <h2 className="mt-6 max-w-3xl text-4xl leading-tight md:text-5xl">
           Three honest stages. No theatre.
         </h2>
         <p className="mt-6 max-w-2xl text-muted-foreground">
           You&apos;ll always know what we&apos;re doing, why, and what it costs. If
-          Nursesight isn&apos;t the right fit for your clinic, we&apos;ll say so before
-          you sign anything.
+          Nursesight isn&apos;t the right fit for your HMO, NGO, or ministry, we&apos;ll
+          say so before you sign anything.
         </p>
         <div className="mt-14 grid gap-10 md:grid-cols-3">
           {process.map((p) => (
@@ -334,6 +351,32 @@ export default function Home() {
               <p className="mt-1 text-xs uppercase tracking-[0.14em] text-muted-foreground">
                 {p.place}
               </p>
+              {p.socials && (
+                <div className="mt-3 flex items-center gap-3">
+                  {p.socials.linkedin && (
+                    <a
+                      href={p.socials.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`${p.name} on LinkedIn`}
+                      className="text-muted-foreground hover:text-foreground transition-colors"
+                    >
+                      <LinkedInIcon className="h-5 w-5" />
+                    </a>
+                  )}
+                  {p.socials.twitter && (
+                    <a
+                      href={p.socials.twitter}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`${p.name} on X`}
+                      className="text-muted-foreground hover:text-foreground transition-colors"
+                    >
+                      <XIcon className="h-5 w-5" />
+                    </a>
+                  )}
+                </div>
+              )}
             </article>
           ))}
         </div>
@@ -349,15 +392,15 @@ export default function Home() {
             Send us a rambling email. We read every one.
           </h2>
           <p className="mt-6 max-w-2xl text-muted-foreground">
-            No forms with twenty fields. Just tell us what clinic or health
-            network you run, and we&apos;ll write back within a day — usually
-            with questions, and a pilot proposal.
+            No forms with twenty fields. Just tell us what HMO, NGO, health
+            network, or ministry you represent, and we&apos;ll write back
+            within a day — usually with questions, and a pilot proposal.
           </p>
           <Link
             href="/contact"
             className="mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground hover:opacity-90"
           >
-            Request a demo <span aria-hidden>→</span>
+            Get Started <span aria-hidden>→</span>
           </Link>
         </div>
       </section>

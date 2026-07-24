@@ -62,9 +62,10 @@ export default function Approach() {
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
           There is no unsolved mystery in newborn health. The interventions that keep babies alive
-          have existed for decades. Nursesight&apos;s job is to make sure they arrive — on time, at the
-          right dose, in the right room, next to the right mother. Three chapters, one continuous
-          chain of care.
+          have existed for decades. Nursesight&apos;s job is to give the HMOs, NGOs, and ministries
+          of health accountable for outcomes the platform to make sure those interventions arrive —
+          on time, at the right dose, in the right room. Three chapters, one continuous chain of
+          care, reportable across every clinic in your network.
         </p>
       </section>
 
@@ -126,7 +127,7 @@ export default function Approach() {
 
       <section className="container-prose mt-24 mb-16 text-center">
         <h2 className="mx-auto max-w-3xl text-4xl md:text-5xl">
-          If this is the work you also care about — let&apos;s talk.
+          Running this across an HMO, NGO, or ministry programme? Let&apos;s talk.
         </h2>
         <Link
           href="/contact"

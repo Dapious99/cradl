@@ -24,7 +24,7 @@ const stack = [
   {
     name: "Outcomes dashboard",
     label:
-      "Real-time reporting for clinic leadership and network administrators, exportable to the health information systems clinics already use.",
+      "Real-time reporting built for HMO risk teams, NGO programme managers, and ministry administrators, exportable to the health information systems your network already uses.",
   },
   {
     name: "Device integrations",
@@ -54,7 +54,7 @@ const principles = [
   },
   {
     t: "Data flows to health systems, not away from them",
-    b: "Nursesight exports into the health information systems clinics already report to — no parallel reporting, no data silos.",
+    b: "Nursesight exports into the health information systems HMOs, NGOs, and ministries already report to — no parallel reporting, no data silos.",
   },
 ];
 

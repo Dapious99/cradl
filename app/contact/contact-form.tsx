@@ -6,9 +6,10 @@ import { ArrowRight, Check } from "lucide-react";
 const FORMSUBMIT_ENDPOINT = "https://formsubmit.co/ajax/nonso@nursesight.site";
 
 const interests = [
-  "Book a demo",
-  "Beta access for my clinic",
-  "Partnerships / integrations",
+  "Get started",
+  "HMO / health plan partnership",
+  "NGO programme partnership",
+  "Ministry of health / government",
   "Press / media",
   "Joining the team",
   "General question",
