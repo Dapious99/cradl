@@ -16,7 +16,7 @@ const people = [
   {
     name: "Emedolu Chinonso",
     role: "Chief Executive Officer",
-    img: "/team-2.jpg",
+    img: "/nonso.png",
     bio: "A decade spent watching preventable neonatal deaths in under-resourced maternity wards convinced them that the gap was never the medicine — it was the coordination around it. They started building Nursesight to close that gap with software.",
     place: "Lagos, Nigeria",
     socials: {
@@ -27,7 +27,7 @@ const people = [
   {
     name: "Hannah Richman",
     role: "Chief Technology Officer",
-    img: "/team-3.jpg",
+    img: "/hannah.png",
     bio: "Spent years at the intersection of clinical care and health systems, watching good outcomes fall apart when the data stopped flowing. Builds the tools that keep Nursesight's chain of care visible, measurable, and honest.",
     place: "Nairobi, Kenya",
     socials: null,

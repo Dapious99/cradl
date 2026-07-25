@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About — Nursesight",
     description: "Why Nursesight exists and the team behind it.",
-    images: ["/team-2.jpg"],
+    images: ["/nonso.png"],
   },
 };
 
@@ -18,7 +18,7 @@ const people = [
   {
     name: "Emedolu Chinonso",
     role: "Chief Executive Officer",
-    img: "/team-2.jpg",
+    img: "/nonso.png",
     place: "Lagos, Nigeria",
     socials: {
       linkedin: "https://www.linkedin.com/in/chinonso-emmanuel-083b18327/",
@@ -28,7 +28,7 @@ const people = [
   {
     name: "Hannah Richman",
     role: "Chief Technology Officer",
-    img: "/team-3.jpg",
+    img: "/hannah.png",
     place: "Nairobi, Kenya",
     socials: null,
   },
@@ -44,10 +44,10 @@ export default function About() {
           <span className="text-primary">reliability</span>.
         </h1>
         <p className="mt-8 max-w-2xl text-lg text-muted-foreground">
-          Chinonso and Hannah spent a decade watching newborns die of things the medical
-          literature had solved decades earlier. In 2025 they started building the software
-          HMOs, NGOs, and ministries of health need to close that gap at scale. Nursesight is now
-          in private beta with maternity clinics across Nigeria and Kenya.
+          Chinonso and Hannah spent a decade watching newborns die of things the medical literature
+          had solved decades earlier. In 2025 they started building the software HMOs, NGOs, and
+          ministries of health need to close that gap at scale. Nursesight is now in private beta
+          with maternity clinics across Nigeria and Kenya.
         </p>
       </section>
 
@@ -58,22 +58,23 @@ export default function About() {
         </div>
         <div className="space-y-5 text-muted-foreground">
           <p>
-            Chinonso and Hannah met at a WHO working group on essential newborn care in 2019. Both had
-            spent a decade watching preventable neonatal deaths in otherwise well-resourced hospitals.
+            Chinonso and Hannah met at a WHO working group on essential newborn care in 2019. Both
+            had spent a decade watching preventable neonatal deaths in otherwise well-resourced
+            hospitals.
           </p>
           <p>
-            The problem wasn&apos;t the medicine. The problem was that the chain of care kept breaking —
-            between prenatal and delivery, between delivery and home, between home and the
-            immunization schedule.
+            The problem wasn&apos;t the medicine. The problem was that the chain of care kept
+            breaking — between prenatal and delivery, between delivery and home, between home and
+            the immunization schedule.
           </p>
           <p>
-            Nursesight is the answer to a question they kept asking: what if the software owned
-            the handoffs, so no health system lost a single patient between visits?
+            Nursesight is the answer to a question they kept asking: what if the software owned the
+            handoffs, so no health system lost a single patient between visits?
           </p>
           <p>
-            That question is why we build for the institutions that carry the accountability —
-            HMOs managing risk across a member population, NGOs running maternal-health
-            programmes, and ministries of health reporting outcomes at national scale.
+            That question is why we build for the institutions that carry the accountability — HMOs
+            managing risk across a member population, NGOs running maternal-health programmes, and
+            ministries of health reporting outcomes at national scale.
           </p>
         </div>
       </section>
@@ -135,8 +136,8 @@ export default function About() {
       <section className="container-prose mt-24 mb-16">
         <div className="rounded-3xl bg-secondary/60 p-10 md:p-14">
           <h2 className="max-w-3xl text-3xl md:text-4xl">
-            Plus a growing beta cohort of clinicians, care coordinators, and institutional
-            partners across Nigeria and Kenya.
+            Plus a growing beta cohort of clinicians, care coordinators, and institutional partners
+            across Nigeria and Kenya.
           </h2>
           <p className="mt-4 max-w-2xl text-muted-foreground">
             The people whose names should be on this page, really. Every HMO, NGO, and ministry

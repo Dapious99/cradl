@@ -70,7 +70,7 @@ const reasons = [
 
 const team = [
   {
-    img: "/team-2.jpg",
+    img: "/nonso.png",
     name: "Emedolu Chinonso",
     role: "Chief Executive Officer",
     place: "Lagos",
@@ -80,7 +80,7 @@ const team = [
     },
   },
   {
-    img: "/team-3.jpg",
+    img: "/hannah.png",
     name: "Hannah Richman",
     role: "Chief Technology Officer",
     place: "Nairobi",
@@ -99,14 +99,13 @@ export default function Home() {
             Hello, we&apos;re Nursesight.
           </p>
           <h1 className="text-5xl leading-[1.02] md:text-6xl">
-            The care-coordination platform health systems deploy to keep
-            newborns alive through their <span className="text-primary">first year</span>.
+            The care-coordination platform health systems deploy to keep newborns alive through
+            their <span className="text-primary">first year</span>.
           </h1>
           <p className="mt-8 max-w-lg text-lg text-muted-foreground">
-            No bloated hospital software, no six-month implementations. A
-            real-time monitoring and care-coordination platform built by
-            clinicians for HMOs, NGOs, and ministries of health — now live in
-            private beta with maternity clinics across Nigeria and Kenya.
+            No bloated hospital software, no six-month implementations. A real-time monitoring and
+            care-coordination platform built by clinicians for HMOs, NGOs, and ministries of health
+            — now live in private beta with maternity clinics across Nigeria and Kenya.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <Link
@@ -123,8 +122,8 @@ export default function Home() {
             </Link>
           </div>
           <blockquote className="mt-10 max-w-md text-sm italic text-muted-foreground">
-            &quot;Most of the babies we help save are saved by a nurse who got
-            the right alert at the right time. That&apos;s the whole job.&quot;
+            &quot;Most of the babies we help save are saved by a nurse who got the right alert at
+            the right time. That&apos;s the whole job.&quot;
             <footer className="mt-3 not-italic text-xs uppercase tracking-[0.14em]">
               — Emedolu Chinonso, CEO, Nursesight
             </footer>
@@ -147,8 +146,7 @@ export default function Home() {
               Right now
             </p>
             <p className="mt-1 font-display text-lg leading-snug">
-              5 pilot clinics live. Onboarding HMOs, NGOs, and health
-              ministries for private beta.
+              5 pilot clinics live. Onboarding HMOs, NGOs, and health ministries for private beta.
             </p>
           </div>
         </div>
@@ -181,28 +179,23 @@ export default function Home() {
             The problem we solve
           </p>
           <h2 className="mt-6 text-4xl leading-tight md:text-5xl">
-            Most infants who die in their first year die from things we already
-            know how to prevent.
+            Most infants who die in their first year die from things we already know how to prevent.
           </h2>
         </div>
         <div className="space-y-6 text-muted-foreground">
           <div>
-            <p className="font-medium text-foreground">
-              Preventable causes, unreliable care
-            </p>
+            <p className="font-medium text-foreground">Preventable causes, unreliable care</p>
             <p className="mt-1">
-              Preterm complications, infections, birth asphyxia, diarrhea. Each
-              has a documented intervention. The medicine isn&apos;t the missing piece.
+              Preterm complications, infections, birth asphyxia, diarrhea. Each has a documented
+              intervention. The medicine isn&apos;t the missing piece.
             </p>
           </div>
           <div>
-            <p className="font-medium text-foreground">
-              Care that falls apart between systems
-            </p>
+            <p className="font-medium text-foreground">Care that falls apart between systems</p>
             <p className="mt-1">
-              Paper charts, WhatsApp groups, and spreadsheets that don&apos;t talk
-              to each other. The chain of care breaks in the handoffs, not
-              the medicine — that&apos;s the gap Nursesight&apos;s software closes.
+              Paper charts, WhatsApp groups, and spreadsheets that don&apos;t talk to each other.
+              The chain of care breaks in the handoffs, not the medicine — that&apos;s the gap
+              Nursesight&apos;s software closes.
             </p>
           </div>
           <div>
@@ -210,9 +203,8 @@ export default function Home() {
               Mothers who don&apos;t know who to call at 3 a.m.
             </p>
             <p className="mt-1">
-              A named midwife and an alert that reaches the right phone
-              changes the outcome more than any single piece of hardware in
-              the room.
+              A named midwife and an alert that reaches the right phone changes the outcome more
+              than any single piece of hardware in the room.
             </p>
           </div>
         </div>
@@ -227,9 +219,9 @@ export default function Home() {
           A handful of things, done properly.
         </h2>
         <p className="mt-6 max-w-2xl text-muted-foreground">
-          We&apos;d rather be brilliant at six things than mediocre at sixty. If your
-          network, NGO programme, or ministry needs something outside this list, we&apos;ll
-          happily point you to someone who does it better.
+          We&apos;d rather be brilliant at six things than mediocre at sixty. If your network, NGO
+          programme, or ministry needs something outside this list, we&apos;ll happily point you to
+          someone who does it better.
         </p>
         <div className="mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {services.map((s) => (
@@ -260,9 +252,9 @@ export default function Home() {
           Three honest stages. No theatre.
         </h2>
         <p className="mt-6 max-w-2xl text-muted-foreground">
-          You&apos;ll always know what we&apos;re doing, why, and what it costs. If
-          Nursesight isn&apos;t the right fit for your HMO, NGO, or ministry, we&apos;ll
-          say so before you sign anything.
+          You&apos;ll always know what we&apos;re doing, why, and what it costs. If Nursesight
+          isn&apos;t the right fit for your HMO, NGO, or ministry, we&apos;ll say so before you sign
+          anything.
         </p>
         <div className="mt-14 grid gap-10 md:grid-cols-3">
           {process.map((p) => (
@@ -278,8 +270,8 @@ export default function Home() {
             &quot;They actually picked up the phone.&quot;
           </p>
           <footer className="mt-3 text-sm text-muted-foreground">
-            — paraphrasing every pilot clinic we&apos;ve onboarded so far, after
-            switching from a bigger vendor.
+            — paraphrasing every pilot clinic we&apos;ve onboarded so far, after switching from a
+            bigger vendor.
           </footer>
         </blockquote>
       </section>
@@ -290,13 +282,11 @@ export default function Home() {
           <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
             Why bother with us
           </p>
-          <h2 className="mt-6 text-4xl leading-tight md:text-5xl">
-            We&apos;re small on purpose.
-          </h2>
+          <h2 className="mt-6 text-4xl leading-tight md:text-5xl">We&apos;re small on purpose.</h2>
           <p className="mt-6 max-w-md text-muted-foreground">
-            The same people who design the product ship it and answer your
-            messages. There&apos;s no account manager translating between you
-            and the engineer in another time zone. It&apos;s just us.
+            The same people who design the product ship it and answer your messages. There&apos;s no
+            account manager translating between you and the engineer in another time zone. It&apos;s
+            just us.
           </p>
         </div>
         <ul className="divide-y divide-border/60">
@@ -313,16 +303,13 @@ export default function Home() {
       <section className="container-prose mt-28">
         <div className="flex flex-wrap items-end justify-between gap-6">
           <div>
-            <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
-              The team
-            </p>
+            <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">The team</p>
             <h2 className="mt-6 max-w-3xl text-4xl leading-tight md:text-5xl">
               The people you&apos;re actually working with.
             </h2>
             <p className="mt-6 max-w-2xl text-muted-foreground">
-              A small clinical and engineering team who ship the product and
-              answer your messages personally. No account managers relaying
-              between you and the people who build it.
+              A small clinical and engineering team who ship the product and answer your messages
+              personally. No account managers relaying between you and the people who build it.
             </p>
           </div>
           <Link
@@ -392,9 +379,9 @@ export default function Home() {
             Send us a rambling email. We read every one.
           </h2>
           <p className="mt-6 max-w-2xl text-muted-foreground">
-            No forms with twenty fields. Just tell us what HMO, NGO, health
-            network, or ministry you represent, and we&apos;ll write back
-            within a day — usually with questions, and a pilot proposal.
+            No forms with twenty fields. Just tell us what HMO, NGO, health network, or ministry you
+            represent, and we&apos;ll write back within a day — usually with questions, and a pilot
+            proposal.
           </p>
           <Link
             href="/contact"
